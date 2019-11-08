@@ -1,0 +1,200 @@
+pc@DESKTOP-D9RMJQ6 MINGW64 /e/coba
+$ ls- la
+bash: ls-: command not found
+
+pc@DESKTOP-D9RMJQ6 MINGW64 /e/coba
+$ ls -la
+total 12
+drwxr-xr-x 1 pc 197121 0 Oct 24 14:48 ./
+drwxr-xr-x 1 pc 197121 0 Oct 24 14:45 ../
+
+pc@DESKTOP-D9RMJQ6 MINGW64 /e/coba
+$ git clone https://github.com/andikarifki/paradigma
+Cloning into 'paradigma'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 6 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), done.
+
+pc@DESKTOP-D9RMJQ6 MINGW64 /e/coba
+$ ls -la
+total 12
+drwxr-xr-x 1 pc 197121 0 Oct 24 14:49 ./
+drwxr-xr-x 1 pc 197121 0 Oct 24 14:45 ../
+drwxr-xr-x 1 pc 197121 0 Oct 24 14:49 paradigma/
+
+pc@DESKTOP-D9RMJQ6 MINGW64 /e/coba
+$ cd paradigma/
+
+pc@DESKTOP-D9RMJQ6 MINGW64 /e/coba/paradigma (master)
+$ ls -la
+total 9
+drwxr-xr-x 1 pc 197121    0 Oct 24 14:49 ./
+drwxr-xr-x 1 pc 197121    0 Oct 24 14:49 ../
+drwxr-xr-x 1 pc 197121    0 Oct 24 14:49 .git/
+-rw-r--r-- 1 pc 197121 1181 Oct 24 14:49 prak5.txt
+-rw-r--r-- 1 pc 197121   13 Oct 24 14:49 README.md
+
+pc@DESKTOP-D9RMJQ6 MINGW64 /e/coba/paradigma (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        prak06.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+pc@DESKTOP-D9RMJQ6 MINGW64 /e/coba/paradigma (master)
+$ git add -A
+
+pc@DESKTOP-D9RMJQ6 MINGW64 /e/coba/paradigma (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   prak06.txt
+
+
+pc@DESKTOP-D9RMJQ6 MINGW64 /e/coba/paradigma (master)
+$ git commit -m "minngu kedua"
+[master f4cdab1] minngu kedua
+ 1 file changed, 58 insertions(+)
+ create mode 100644 prak06.txt
+
+pc@DESKTOP-D9RMJQ6 MINGW64 /e/coba/paradigma (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+pc@DESKTOP-D9RMJQ6 MINGW64 /e/coba/paradigma (master)
+$ git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 972 bytes | 162.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/andikarifki/paradigma
+   d5d3f04..f4cdab1  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+pc@DESKTOP-D9RMJQ6 MINGW64 /e/coba/paradigma (master)
+$ ls -la
+total 13
+drwxr-xr-x 1 pc 197121    0 Oct 24 14:50 ./
+drwxr-xr-x 1 pc 197121    0 Oct 24 14:49 ../
+drwxr-xr-x 1 pc 197121    0 Oct 24 14:53 .git/
+-rw-r--r-- 1 pc 197121 2441 Oct 23 21:07 prak06.txt
+-rw-r--r-- 1 pc 197121 1181 Oct 24 14:49 prak5.txt
+-rw-r--r-- 1 pc 197121   13 Oct 24 14:49 README.md
+
+pc@DESKTOP-D9RMJQ6 MINGW64 /e/coba/paradigma (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+pc@DESKTOP-D9RMJQ6 MINGW64 /e/coba/paradigma (master)
+$ ls -la
+total 13
+drwxr-xr-x 1 pc 197121    0 Oct 24 14:50 ./
+drwxr-xr-x 1 pc 197121    0 Oct 24 14:49 ../
+drwxr-xr-x 1 pc 197121    0 Oct 24 14:53 .git/
+-rw-r--r-- 1 pc 197121 2441 Oct 23 21:07 prak06.txt
+-rw-r--r-- 1 pc 197121 1181 Oct 24 14:49 prak5.txt
+-rw-r--r-- 1 pc 197121   13 Oct 24 14:49 README.md
+
+pc@DESKTOP-D9RMJQ6 MINGW64 /e/coba/paradigma (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        tugas hari 4.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+pc@DESKTOP-D9RMJQ6 MINGW64 /e/coba/paradigma (master)
+$ git add -A
+
+pc@DESKTOP-D9RMJQ6 MINGW64 /e/coba/paradigma (master)
+$ git commit -m "nyoba"
+[master fa7740c] nyoba
+ 1 file changed, 138 insertions(+)
+ create mode 100644 tugas hari 4.txt
+
+pc@DESKTOP-D9RMJQ6 MINGW64 /e/coba/paradigma (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+pc@DESKTOP-D9RMJQ6 MINGW64 /e/coba/paradigma (master)
+$ git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.04 KiB | 354.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/andikarifki/paradigma
+   f4cdab1..fa7740c  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+pc@DESKTOP-D9RMJQ6 MINGW64 /e/coba/paradigma (master)
+$ ls -la
+total 17
+drwxr-xr-x 1 pc 197121    0 Oct 24 14:55  ./
+drwxr-xr-x 1 pc 197121    0 Oct 24 14:49  ../
+drwxr-xr-x 1 pc 197121    0 Oct 24 14:56  .git/
+-rw-r--r-- 1 pc 197121 2441 Oct 23 21:07  prak06.txt
+-rw-r--r-- 1 pc 197121 1181 Oct 24 14:49  prak5.txt
+-rw-r--r-- 1 pc 197121   13 Oct 24 14:49  README.md
+-rw-r--r-- 1 pc 197121 3246 Oct 17 10:14 'tugas hari 4.txt'
+
+pc@DESKTOP-D9RMJQ6 MINGW64 /e/coba/paradigma (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    tugas hari 4.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+pc@DESKTOP-D9RMJQ6 MINGW64 /e/coba/paradigma (master)
+$ git add -A
+
+pc@DESKTOP-D9RMJQ6 MINGW64 /e/coba/paradigma (master)
+$ git commit -m "hapus file"
+[master d7b5c6d] hapus file
+ 1 file changed, 138 deletions(-)
+ delete mode 100644 tugas hari 4.txt
+
+pc@DESKTOP-D9RMJQ6 MINGW64 /e/coba/paradigma (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 215 bytes | 107.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/andikarifki/paradigma
+   fa7740c..d7b5c6d  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
